@@ -15,6 +15,14 @@
 
 @implementation InternalService
 
+- (instancetype)init {
+    self = [super init];
+    if (self) {
+        // Doing stuff 🔥
+    }
+    return self;
+}
+
 - (instancetype)initWithCoreDataLayer:(CoreDataLayer *)coreDataLayer {
     self = [self init];
     if (self) {
